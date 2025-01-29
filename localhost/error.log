@@ -1,0 +1,60 @@
+[Tue Dec 24 08:37:08.190227 2024] [core:warn] [pid 2636:tid 428] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Dec 24 08:37:08.220302 2024] [mpm_winnt:notice] [pid 2636:tid 428] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Tue Dec 24 08:37:08.220302 2024] [mpm_winnt:notice] [pid 2636:tid 428] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 24 08:37:08.220302 2024] [core:notice] [pid 2636:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 24 08:37:08.230331 2024] [mpm_winnt:notice] [pid 2636:tid 428] AH00418: Parent: Created child process 18472
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 18472:tid 444] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 24 08:39:56.490056 2024] [mpm_winnt:notice] [pid 2636:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 24 08:39:58.501764 2024] [mpm_winnt:notice] [pid 18472:tid 444] AH00364: Child: All worker threads have exited.
+[Tue Dec 24 08:39:58.524877 2024] [mpm_winnt:notice] [pid 2636:tid 428] AH00430: Parent: Child process 18472 exited successfully.
+[Tue Dec 24 14:07:39.857422 2024] [mpm_winnt:notice] [pid 26228:tid 436] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Tue Dec 24 14:07:39.857422 2024] [mpm_winnt:notice] [pid 26228:tid 436] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 24 14:07:39.857422 2024] [core:notice] [pid 26228:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 24 14:07:39.873043 2024] [mpm_winnt:notice] [pid 26228:tid 436] AH00418: Parent: Created child process 24252
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 24252:tid 444] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 24 14:43:48.489726 2024] [php:warn] [pid 24252:tid 1124] [client ::1:59552] PHP Warning:  include(connect.php): Failed to open stream: No such file or directory in C:\\localhost\\index.php on line 4, referer: http://localhost/form_login.php
+[Tue Dec 24 14:43:48.489726 2024] [php:warn] [pid 24252:tid 1124] [client ::1:59552] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.;C:\\php\\pear') in C:\\localhost\\index.php on line 4, referer: http://localhost/form_login.php
+[Tue Dec 24 14:43:48.525446 2024] [php:error] [pid 24252:tid 1124] [client ::1:59552] script 'C:/localhost/styles.php' not found or unable to stat, referer: http://localhost/index.php
+[Tue Dec 24 14:43:48.551414 2024] [php:error] [pid 24252:tid 1128] [client ::1:59553] script 'C:/localhost/get_products.php' not found or unable to stat, referer: http://localhost/index.php
+[Tue Dec 24 14:43:48.551414 2024] [php:error] [pid 24252:tid 1124] [client ::1:59552] script 'C:/localhost/get_basket.php' not found or unable to stat, referer: http://localhost/index.php
+[Tue Dec 24 18:27:58.035404 2024] [php:error] [pid 24252:tid 1128] [client ::1:61894] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\localhost\\connect.php:9\nStack trace:\n#0 C:\\localhost\\index.php(4): include()\n#1 {main}\n  thrown in C:\\localhost\\connect.php on line 9, referer: http://localhost/form_login.php
+[Tue Dec 24 18:28:05.747918 2024] [php:error] [pid 24252:tid 1124] [client ::1:61895] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\localhost\\connect.php:9\nStack trace:\n#0 C:\\localhost\\index.php(4): include()\n#1 {main}\n  thrown in C:\\localhost\\connect.php on line 9, referer: http://localhost/form_login.php
+[Tue Dec 24 18:28:11.821687 2024] [mpm_winnt:notice] [pid 26228:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 24 18:28:47.762096 2024] [mpm_winnt:notice] [pid 24252:tid 444] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Tue Dec 24 18:29:05.913161 2024] [mpm_winnt:notice] [pid 24252:tid 444] AH00364: Child: All worker threads have exited.
+[Wed Jan 08 03:45:06.129154 2025] [core:warn] [pid 4120:tid 428] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 08 03:45:06.180097 2025] [mpm_winnt:notice] [pid 4120:tid 428] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Wed Jan 08 03:45:06.180097 2025] [mpm_winnt:notice] [pid 4120:tid 428] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Jan 08 03:45:06.180097 2025] [core:notice] [pid 4120:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jan 08 03:45:06.196583 2025] [mpm_winnt:notice] [pid 4120:tid 428] AH00418: Parent: Created child process 6240
+[Wed Jan 08 03:45:06.793810 2025] [mpm_winnt:notice] [pid 6240:tid 436] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 08 03:47:14.110380 2025] [php:error] [pid 6240:tid 1100] [client ::1:50141] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\localhost\\connect.php:9\nStack trace:\n#0 C:\\localhost\\index.php(4): include()\n#1 {main}\n  thrown in C:\\localhost\\connect.php on line 9, referer: http://localhost/form_login.php
+[Sat Jan 11 11:00:00.209436 2025] [core:warn] [pid 4128:tid 404] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jan 11 11:00:00.271396 2025] [mpm_winnt:notice] [pid 4128:tid 404] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Sat Jan 11 11:00:00.271396 2025] [mpm_winnt:notice] [pid 4128:tid 404] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Jan 11 11:00:00.271396 2025] [core:notice] [pid 4128:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Jan 11 11:00:00.272446 2025] [mpm_winnt:notice] [pid 4128:tid 404] AH00418: Parent: Created child process 4984
+[Sat Jan 11 11:00:00.947207 2025] [mpm_winnt:notice] [pid 4984:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 16 19:01:30.114245 2025] [mpm_winnt:notice] [pid 4128:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 16 19:01:32.152409 2025] [mpm_winnt:notice] [pid 4984:tid 420] AH00364: Child: All worker threads have exited.
+[Thu Jan 16 19:01:32.209339 2025] [mpm_winnt:notice] [pid 4128:tid 404] AH00430: Parent: Child process 4984 exited successfully.
+[Thu Jan 16 19:02:00.543721 2025] [mpm_winnt:notice] [pid 5028:tid 404] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Thu Jan 16 19:02:00.544721 2025] [mpm_winnt:notice] [pid 5028:tid 404] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Jan 16 19:02:00.544721 2025] [core:notice] [pid 5028:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Jan 16 19:02:00.546819 2025] [mpm_winnt:notice] [pid 5028:tid 404] AH00418: Parent: Created child process 7312
+[Thu Jan 16 19:02:01.975427 2025] [mpm_winnt:notice] [pid 7312:tid 420] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 22 12:34:40.196995 2025] [mpm_winnt:notice] [pid 5028:tid 404] AH00428: Parent: child process 7312 exited with status 4294967295 -- Restarting.
+[Sat Jan 25 02:36:46.394330 2025] [core:warn] [pid 4100:tid 404] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jan 25 02:36:46.469655 2025] [mpm_winnt:notice] [pid 4100:tid 404] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Sat Jan 25 02:36:46.469655 2025] [mpm_winnt:notice] [pid 4100:tid 404] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sat Jan 25 02:36:46.469655 2025] [core:notice] [pid 4100:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Jan 25 02:36:46.471649 2025] [mpm_winnt:notice] [pid 4100:tid 404] AH00418: Parent: Created child process 7040
+[Sat Jan 25 02:36:47.200711 2025] [mpm_winnt:notice] [pid 7040:tid 420] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 26 17:30:17.560080 2025] [core:warn] [pid 4112:tid 412] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 26 17:30:17.647525 2025] [mpm_winnt:notice] [pid 4112:tid 412] AH00455: Apache/2.4.62 (Win64) PHP/8.4.2 configured -- resuming normal operations
+[Sun Jan 26 17:30:17.647525 2025] [mpm_winnt:notice] [pid 4112:tid 412] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Sun Jan 26 17:30:17.647525 2025] [core:notice] [pid 4112:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Jan 26 17:30:17.647525 2025] [mpm_winnt:notice] [pid 4112:tid 412] AH00418: Parent: Created child process 6604
+[Sun Jan 26 17:30:18.597717 2025] [mpm_winnt:notice] [pid 6604:tid 424] AH00354: Child: Starting 64 worker threads.
